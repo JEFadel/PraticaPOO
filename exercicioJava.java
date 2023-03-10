@@ -16,7 +16,10 @@ public class exercicioJava {
         System.out.println("-----------RESULTADO-----------");
 
         for (Integer num: lista) {
-            if (num % 3 == 0) {
+            if ( num == 0 ) {
+                System.out.println(num + " - o numero e par.");
+            }
+            else if (num % 3 == 0) {
                 System.out.println(num + " - o numero e multiplo de tres.");
             }
             else if (num % 2 == 0) {
