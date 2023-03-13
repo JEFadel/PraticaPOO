@@ -1,11 +1,19 @@
 public class Carro {
-    String cor;
-    String marca;
-    String modelo;
-    int ano;
-    boolean automatico;
-    float velocidade = 0f;
-    boolean ligado = false;
+    public String cor;
+    public String marca;
+    public String modelo;
+    public int ano;
+    public boolean automatico;
+    public float velocidade = 0f;
+    private boolean ligado = false;
+
+    public Carro(String cor, String marca, String modelo, int ano, boolean automatico) {
+        this.cor = cor;
+        this. marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.automatico = automatico;
+    }
 
     public void Ligar() {
         ligado = true;

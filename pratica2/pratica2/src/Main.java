@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         // Carro da professora Marina
-        Carro hb20 = new Carro(); // Criando uma instância de carro
-        hb20.cor = "Cinza";
-        hb20.marca = "Hyundai";
-        hb20.modelo = "Hb20";
-        hb20.ano = 2021;
-        hb20.automatico = false;
+        Carro hb20 = new Carro("Cinza", "Hyundai", "Hb20", 2021, false); // Criando uma instância de carro
+//        hb20.cor = "Cinza";
+//        hb20.marca = "Hyundai";
+//        hb20.modelo = "Hb20";
+//        hb20.ano = 2021;
+//        hb20.automatico = false;
 
         System.out.println("Olá, este modelo é o " + hb20.modelo);
         System.out.println("A marca do carro é " + hb20.marca + " e o seu ano é " + hb20.ano);
